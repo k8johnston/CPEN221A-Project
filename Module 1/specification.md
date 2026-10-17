@@ -26,18 +26,18 @@ Each student is compared with every other student using a match score out of 100
 
 | Category | Criteria | Max |
 |---|---|---|
-| Shared classes | 8 points per class (up to 4 classes) | 32 |
+| Shared classes | 6 points per class (up to 5 classes) | 30 |
 | Free time | 2 points per hour you're both free in a week (up to 10hr) | 20 |
 | Intensity (3 levels) | Same: 12. One step apart (e.g. casual vs balanced): 6. Casual vs intense: 0 | 12 |
 | Noise level (0–2) | Same: 12. One apart: 6. Two apart: 0 | 12 |
 | Study methods (6 options) | 4 points per method you both picked (up to 3) | 12 |
 | Study location | Both on campus or both off campus: 6 | 6 |
-| Top study spots (6 options) | 3 points per spot you both picked (up to 2) | 6 |
+| Top study spots (6 options) | 4 points per spot you both picked (up to 2) | 8 |
 | **Total** | | **100** |
 
-The score should be the same in both directions. A's match with B equals B's match with A. It's recalculated whenever either student edits their profile. When you open a course, the students in it are listed from highest match % to lowest.
+The score is the same in both directions: A's match with B equals B's match with A. It's recalculated whenever either student edits their profile. When you open a course or exam, the students in it are listed from highest match % to lowest.
 
-*Example:* Two students share 3 classes (24) and 4 free hours (8). One's study intensity is casual and the other is balanced (6). Both study off campus (6) and both picked Brentwood (3). Both use cram sessions and the Feynman technique (8). Their noise levels are 0 and 1 (6). Their match is **61%**.
+*Example:* Two students share 3 classes (18) and 4 free hours (8). One is casual and the other is balanced (6). Both study off campus (6) and both picked Brentwood (4). Both use cram sessions and the Feynman technique (8). Their noise levels are 0 and 1 (6). Their match is **56%**.
 
 Tapping a student opens their profile, which shows their courses, study style, and the times you're both free. It also shows a match percentage based on how many courses, free hours and study preferences you share. Their contact info stays hidden unless they also match (explained below).
 
