@@ -20,7 +20,24 @@ To sign up, students use their UBC email. The email must end in @student.ubc.ca.
 
 The home page works like a landing page. A search and filter bar at the top searches courses, exams and students, and the filters narrow results by things like course, study style and free days. Below it is a row of upcoming exams and midterms in the student's courses that scrolls sideways. Next is a grid of courses, with dropdowns to choose a major and year level. Tapping an exam or course shows every student in that course. Empty State: If search or filtering yields no results, the screen displays: "No study partners found matching your filters. Try adjusting your criteria."
 
-(add algorithmic functionality here)
+### Compatibility Algorithm
+ 
+Each student is compared with every other student using a match score out of 100, built from their onboarding answers. Shared classes and free time are worth the most, since you can't study together without them.
+
+| Category | Criteria | Max |
+|---|---|---|
+| Shared classes | 8 points per class (up to 4 classes) | 32 |
+| Free time | 2 points per hour you're both free in a week (up to 10hr) | 20 |
+| Intensity (3 levels) | Same: 12. One step apart (e.g. casual vs balanced): 6. Casual vs intense: 0 | 12 |
+| Noise level (0–2) | Same: 12. One apart: 6. Two apart: 0 | 12 |
+| Study methods (6 options) | 4 points per method you both picked (up to 3) | 12 |
+| Study location | Both on campus or both off campus: 6 | 6 |
+| Top study spots (6 options) | 3 points per spot you both picked (up to 2) | 6 |
+| **Total** | | **100** |
+
+The score should be the same in both directions. A's match with B equals B's match with A. It's recalculated whenever either student edits their profile. When you open a course, the students in it are listed from highest match % to lowest.
+
+*Example:* Two students share 3 classes (24) and 4 free hours (8). One's study intensity is casual and the other is balanced (6). Both study off campus (6) and both picked Brentwood (3). Both use cram sessions and the Feynman technique (8). Their noise levels are 0 and 1 (6). Their match is **61%**.
 
 Tapping a student opens their profile, which shows their courses, study style, and the times you're both free. It also shows a match percentage based on how many courses, free hours and study preferences you share. Their contact info stays hidden unless they also match (explained below).
 
