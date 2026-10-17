@@ -49,7 +49,7 @@ The score is the same in both directions: A's match with B equals B's match with
 
 Tapping a student opens their profile, which shows their courses, study style, and the times you're both free. It also shows a match percentage based on how many courses, free hours and study preferences you share. Their contact info stays hidden unless they also match (explained below).
 
-![Profile Example](Images/image5.png)
+![Profile Example](Images/image10.png)
 
 If a student wants to study with someone, they tap Interested, which works like sending a "like". The other person can see who's interested in them. If they tap Interested back, it's a match and both students see a pop-up and can now see each other's contact info to plan a study session. A student can take back their interest any time before a match, or hide someone so they never see each other.
 
